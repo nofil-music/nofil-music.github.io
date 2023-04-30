@@ -229,6 +229,14 @@ footer a{
     justify-self: end;
 }
 
+.contact{
+    display: flex;
+    justify-content: center;
+    color: white;
+    opacity: 50%;
+    scale: 50%;
+}
+
 @keyframes slidefromleft{
     0%{
         transform: translateX(500%);
