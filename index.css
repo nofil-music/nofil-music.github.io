@@ -4,6 +4,11 @@
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
     font-weight: 300;
 }
+
+html{
+    background-color: #070707;
+}
+
 nav {
     background-color: #111;
     overflow: hidden;
