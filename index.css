@@ -85,7 +85,6 @@ body{
 
 .tophits{
     color: aliceblue;
-    /* animation-delay: 4s; */
     animation-name: opacity;
     animation-duration: 4s;
 }
@@ -255,7 +254,7 @@ footer a{
 
 @keyframes slidefromleft{
     0%{
-        transform: translateX(500%);
+        transform: translateX(600%);
     }
 
 100%{
@@ -279,4 +278,8 @@ footer a{
     100%{
         opacity: 100%;
     }
+}
+
+#hide{
+  
 }

@@ -1,7 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
-    $('#about').hide();
+  $('#about').hide();
+  $('#html').hide();
 });
 
+
+window.onload = function(){
+  $('#html').show();
+}
 
 function about(){
     const aboutbtn = document.getElementById("about-btn");
