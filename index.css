@@ -283,3 +283,10 @@ footer a{
 #hide{
   
 }
+
+.logos.d.tile{
+    margin-top: -2.5px;
+}
+.logos.b.tile{
+    margin-top: -3px;
+}
