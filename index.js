@@ -13,8 +13,8 @@ function about(){
     console.log("About");
     homebtn.classList.remove("clicked");
     aboutbtn.classList.add("clicked");
-    $('#home').hide();
     $('#about').show();
+    $('#home').hide();
 }
 
 function home(){
