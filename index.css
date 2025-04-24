@@ -10,13 +10,13 @@ html{
 }
 
 nav {
-    background-color: #111;
+    background-color: #10131a;
     overflow: hidden;
     display: flex;
     justify-content: center;
   }
 body{
-    background-color: #111;
+    background-color: #10131a;
 }
   nav ul {
     list-style-type: none;
@@ -103,6 +103,16 @@ body{
     animation-name: slidefrombelow;
     animation-duration: 3s;
 }
+
+.card.d{
+    animation-name: slidefrombelow;
+    animation-duration: 3.3s;
+}
+
+.card.e{
+    animation-name: slidefrombelow;
+    animation-duration: 3.6s;
+}
 .profilepicture{
     height: 150px;
     width: 150px;
@@ -113,7 +123,7 @@ body{
 
 .title{
     color: rgb(202, 202, 202);
-    text-align: left;
+    text-align: center;
     margin-left: 10px;
     margin-top: -7px;
 }
@@ -126,34 +136,33 @@ body{
 }
 
 .content{
-    margin-top: 13px;
+    margin-top: 5px;
     display: flex;
     flex-direction: column;
     justify-content: right;
 }
 
 .none{
-    margin-top: 10px;
     text-decoration: none;
 }
 
 .card {
     color: rgb(202, 202, 202);
-    background-color: rgba(255, 141, 41, 0);
-    box-shadow: rgba(39, 154, 255, 0.248) 0px 5px 25px;
-    border-radius: 8px;
-    margin: 10px;
-    margin-top: 10px;
-    height: 50px;
-    border: solid 1px;
+    background-color: #141720;
+    /* box-shadow: rgba(39, 154, 255, 0.248) 0px 5px 25px; */
+    border-radius: 10px;
+    margin: 6px 16px;
+    margin-top: 5px;
+    border: #8289a010 solid  1px;
     text-align: left;
     font-family: arial;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .songtitle{
-    margin-top: 13px;
-    scale: 95%;
-    display: flex;
+    /* margin-left: 2px; */
 }
 
 .play{
@@ -163,10 +172,6 @@ body{
     margin-right: 6.5px;
     height: 10px;
     width: 9.5px;
-}
-
-p{
-    margin-left: 5px;
 }
 
 h5{
@@ -228,7 +233,7 @@ footer a{
 }
 
 .background{
-    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url("Nofil1.JPG");
+    background-image:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,1)), url("img/Nofil1.JPG");
     background-repeat: no-repeat;
 	background-size: cover;
     width: 100%;
@@ -293,4 +298,77 @@ footer a{
     margin: 10px;
     height: 25px;
     width: 25px;
+}
+
+.home .upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.card-img{
+    height: 60px;
+    width: 60px;
+    border-radius: 9px;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.small-logos{
+    height: 15px;
+    width: 15px;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    margin: 4px 4px 4px 0px;
+}
+
+.flex p{
+    font-size: small;
+}
+
+.title-content{
+    margin: 2px;
+    width: 100%;
+}
+
+.title-content .flex p{
+    margin-left: 4px;
+}
+
+.space-out{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new-icon{
+    background-color: #1ed75fe7;
+    padding: 5px 8px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: small;
+    margin-right: 5px;
+    scale: 90%;
+}
+
+fieldset p{
+    padding: 12px;
+    text-align: justify;
+}
+
+.youtube-p{
+    color: #c53a3a;
+}
+
+.spotify-p{
+    color: #1ed75fe7;
 }
