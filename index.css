@@ -347,13 +347,13 @@ footer a{
 
 .new-icon{
     background-color: #1ed75fe7;
-    padding: 5px 8px;
+    padding: 3px 7px;
     border-radius: 15px;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
     font-size: small;
     margin-right: 5px;
-    scale: 90%;
+    scale: 80%;
 }
 
 fieldset p{
